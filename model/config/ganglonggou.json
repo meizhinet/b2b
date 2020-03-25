@@ -1,0 +1,21 @@
+{
+  "mysql": {
+    "hostname": "127.0.0.1",
+    "database": "ganglongb2b",
+    "username": "root",
+    "password": "root",
+    "hostport": "3306"
+  },
+  "token_salt": "GangLong88888888",
+  "img_url": "http://192.168.0.37:8002/",
+  "api_url": "https://test-api-l.ganglonggou.com/",
+  "debug": true,
+  "wx_app_id": "wxcdc792b2207365e6",
+  "wx_secret": "c3742c6c820cd7147bef1302c293ed3b",
+  "lbAppId": "1CAKH7TDH07I0101007F0000DE193C56",
+  "bdAppId": "1CIOOHCD70050101007F00000910CACD",
+  "lbAppKey": "e59e98d33b0ee97fa42c98045b2573795df4fe524554027a",
+  "bdAppKey": "4fcbefab85ef13ce467f894637329262521c2f7f25ad3e3d"
+}
+
+

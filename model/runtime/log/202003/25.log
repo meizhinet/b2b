@@ -1,0 +1,144 @@
+---------------------------------------------------------------
+
+[2020-03-25T12:49:20+08:00] ::1 GET localhost:8009/
+[ info ] array (
+  'type' => 'File',
+  'path' => 'C:\\Users\\14245\\Desktop\\phpworkspase\\b2b/runtime/log/',
+  'level' => 
+  array (
+    0 => 'error',
+  ),
+)
+[ error ] module not exists:index
+---------------------------------------------------------------
+
+[2020-03-25T12:49:44+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ error ] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ info ] array (
+  'type' => 'File',
+  'path' => 'C:\\Users\\14245\\Desktop\\phpworkspase\\b2b/runtime/log/',
+  'level' => 
+  array (
+    0 => 'error',
+  ),
+)
+---------------------------------------------------------------
+
+[2020-03-25T12:49:49+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ error ] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ info ] array (
+  'type' => 'File',
+  'path' => 'C:\\Users\\14245\\Desktop\\phpworkspase\\b2b/runtime/log/',
+  'level' => 
+  array (
+    0 => 'error',
+  ),
+)
+---------------------------------------------------------------
+
+[2020-03-25T12:49:50+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ error ] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ info ] array (
+  'type' => 'File',
+  'path' => 'C:\\Users\\14245\\Desktop\\phpworkspase\\b2b/runtime/log/',
+  'level' => 
+  array (
+    0 => 'error',
+  ),
+)
+---------------------------------------------------------------
+
+[2020-03-25T12:49:51+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ error ] SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[ info ] array (
+  'type' => 'File',
+  'path' => 'C:\\Users\\14245\\Desktop\\phpworkspase\\b2b/runtime/log/',
+  'level' => 
+  array (
+    0 => 'error',
+  ),
+)
+---------------------------------------------------------------
+
+[2020-03-25T12:53:46+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[运行时间：0.071199s] [吞吐率：14.05req/s] [内存消耗：2,767.29kb] [文件加载：77]
+[ info ] [ LANG ] C:\Users\14245\Desktop\phpworkspase\b2b\main\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/cms/all_admin',
+  'route' => 'api/:version.cms.CmsAdmin/allAdmin',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8009',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'name=zhonghuilin; password=admin',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010125s ] mysql:host=127.0.0.1;dbname=ganglongb2b;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gl_admin` [ RunTime:0.007861s ]
+[ sql ] [ SQL ] SELECT * FROM `gl_admin` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `gl_admin` [ RunTime:0.000454s ]
+[ error ] [0]variable type error： array[C:\Users\14245\Desktop\phpworkspase\b2b\main\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+
+[2020-03-25T12:58:54+08:00] ::1 GET localhost:8009/api/v1/cms/all_admin
+[运行时间：0.063125s] [吞吐率：15.84req/s] [内存消耗：2,726.91kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\14245\Desktop\phpworkspase\b2b\main\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/cms/all_admin',
+  'route' => 'api/:version.cms.CmsAdmin/allAdmin',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8009',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'name=zhonghuilin; password=admin',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001062s ] mysql:host=127.0.0.1;dbname=ganglongb2b;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gl_admin` [ RunTime:0.007448s ]
+[ sql ] [ SQL ] SELECT * FROM `gl_admin` [ RunTime:0.000297s ]
