@@ -4,7 +4,7 @@
 namespace app\api\model;
 
 
-class admin
+class GlAdmin extends BaseModel
 {
 
 }
